@@ -1,4 +1,7 @@
-package syntax.calculator;
+package syntax;
+import syntax.calculator.Calculator;
+import syntax.song.Jengre;
+import syntax.song.Song;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,5 +31,11 @@ public class Main {
         System.out.printf("2898987456 + 3111234456 = %d \n2898987456 - 3111234456 = %d \n" +
                         "2898987456 / 3111234456 = %f \n2898987456 * 3111234456 = %d",
                 longtestsumm,longtestsunstr,longtestdiv,longtestmultiply);
+
+        // 2) класс с несколькими кострукторами
+        Song song1 = new Song(Jengre.RNB, "In da Club", "50 Cent", 3,20);
+        Song song2 = new Song();
+        System.out.println(song1);
+        System.out.println(song2);
     }
 }
