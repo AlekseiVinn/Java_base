@@ -1,4 +1,4 @@
-package syntax;
+package syntax.calculator;
 
 public class Calculator {
     //int
@@ -10,8 +10,8 @@ public class Calculator {
         return (num1 - num2);
     }
 
-    public static int Div(int num1, int num2){
-        return (num1 / num2);
+    public static double Div(int num1, int num2){
+        return ((double)num1 / num2);
     }
 
     public static int Multiply(int num1, int num2){
@@ -44,8 +44,8 @@ public class Calculator {
         return (num1 - num2);
     }
 
-    public static long Div(long num1, long num2){
-        return (num1 / num2);
+    public static double Div(long num1, long num2){
+        return ((double)num1 / num2);
     }
 
     public static long Multiply(long num1, long num2){

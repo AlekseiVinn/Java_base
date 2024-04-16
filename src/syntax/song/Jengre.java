@@ -1,4 +1,4 @@
-package syntax;
+package syntax.song;
 
 public enum Jengre {
     NONE ("Не определен"),
