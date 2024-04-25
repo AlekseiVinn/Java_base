@@ -25,9 +25,11 @@ public class Main {
         String toBann1 = "Кулебяка, бяка-бяка";
         String toBann2 = "Кулебляка";
         String toBann3 = "Ничего не баним";
-        System.out.println(StringMethods.censored(toBann1));
-        System.out.println(StringMethods.censored(toBann2));
-        System.out.println(StringMethods.censored(toBann3));
+        String banWord = "бяка";
+        String handledBan = "[вырезано цензурой]";
+        System.out.println(StringMethods.censored(toBann1, banWord, handledBan));
+        System.out.println(StringMethods.censored(toBann2, banWord, handledBan));
+        System.out.println(StringMethods.censored(toBann3, banWord, handledBan));
 
         //Задание 4
         System.out.println(StringMethods.countSubstring(toBann1, "бяка"));

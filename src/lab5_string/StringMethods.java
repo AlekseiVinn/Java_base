@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class StringMethods {
 
     public static String longestWord(String testString){
+        //testString.
         String[] strList = testString.split("[[\\W\\s][\\s][\\W]]+");
         String longest = new String();
         for (int i = 0; i < strList.length; i++) {
@@ -26,9 +27,7 @@ public class StringMethods {
         return true;
     }
 
-    public static String censored(String strToCensore){
-        String banWord = "бяка";
-        String handledBan = "[вырезано цензурой]";
+    public static String censored(String strToCensore, String banWord, String handledBan){
         return strToCensore.replaceAll(banWord, handledBan);
     }
 
