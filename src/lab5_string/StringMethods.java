@@ -6,7 +6,8 @@ public class StringMethods {
 
     public static String longestWord(String testString){
         //testString.
-        String[] strList = testString.split("[[\\W\\s][\\s][\\W]]+");
+        //String[] strList = testString.split("[[\\W\\s][\\s][\\W]]+");
+        String[] strList = testString.split("[\":;,. ]+");
         String longest = new String();
         for (int i = 0; i < strList.length; i++) {
             if (longest.length() < strList[i].length())
