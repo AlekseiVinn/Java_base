@@ -1,4 +1,4 @@
-package lab06_oop.humanoid;
+package lab6_oop.humanoid;
 
 public class Client extends Human implements IChangingBank{
     private String bankName;

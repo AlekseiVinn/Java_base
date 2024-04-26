@@ -1,4 +1,4 @@
-package lab06_oop.inherit_task5;
+package lab6_oop.inherit_task5;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package lab06_oop.vehicles;
+package lab6_oop.vehicles;
 
 public class Car {
     public int weight;

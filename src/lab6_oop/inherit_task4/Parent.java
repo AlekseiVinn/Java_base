@@ -1,6 +1,4 @@
-package lab06_oop.inherit_task4;
-
-import java.util.Scanner;
+package lab6_oop.inherit_task4;
 
 public class Parent {
     protected int intParam;

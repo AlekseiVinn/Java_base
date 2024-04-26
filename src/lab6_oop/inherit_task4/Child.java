@@ -1,4 +1,4 @@
-package lab06_oop.inherit_task4;
+package lab6_oop.inherit_task4;
 
 public class Child extends Parent{
 

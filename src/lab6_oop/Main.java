@@ -1,8 +1,8 @@
-package lab06_oop;
+package lab6_oop;
 
-import lab06_oop.inherit_task4.Child;
-import lab06_oop.inherit_task5.SuperChild;
-import lab06_oop.inherit_task5.SuperParent;
+import lab6_oop.inherit_task4.Child;
+import lab6_oop.inherit_task5.SuperChild;
+import lab6_oop.inherit_task5.SuperParent;
 
 import java.util.Random;
 

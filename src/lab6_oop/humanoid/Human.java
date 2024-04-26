@@ -1,4 +1,4 @@
-package lab06_oop.humanoid;
+package lab6_oop.humanoid;
 
 public abstract class Human {
     protected String firstName;

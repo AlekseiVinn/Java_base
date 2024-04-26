@@ -1,4 +1,4 @@
-package lab06_oop.inherit_task5;
+package lab6_oop.inherit_task5;
 
 public class SuperChild extends SuperParent{
     @Override
