@@ -14,6 +14,5 @@ public class Main {
         an124_Wing.setWingWeight(8400);
         System.out.println("Самолет: " + an124.getPlaneName());
         System.out.println(an124_Wing.getWingWeight());
-        System.out.println(su24_Wing.getWingWeight());
     }
 }
